@@ -89,8 +89,6 @@ sup { line-height: 1ex; }
 	-moz-box-shadow: 2px 2px 8px #aaa;
 }
 
-#disqus_thread { padding-top: 0; }
-
 /* TODO
 #page { counter-reset: section; }
 #page h2:before {
@@ -374,7 +372,9 @@ pre > code {
 
 /* @group Disqus */
 #disqus_thread {
-	margin-top: 2.93em;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 0;
 }
 .dsq-comment-body {
 	text-align: justify;
