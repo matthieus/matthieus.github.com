@@ -1,6 +1,7 @@
 ---
-layout: content
+layout: default
 ---
+{% include JB/setup %}
 {% assign page = site.posts[0]%}
-{% assign content = site.posts[0].content%}
+{% assign content = page.content %}
 {% include themes/mark-reid-mod/post.html %}
