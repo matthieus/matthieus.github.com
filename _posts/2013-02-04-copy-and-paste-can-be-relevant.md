@@ -4,8 +4,6 @@ category: idea, open source
 ---
 {% include JB/setup %}
 
-Copy and Paste can be relevant
-
 Pasting code is good because:
 - now you can tailor that code to your exact needs
 - because depending on someone else's library is an act of commitment and trust
