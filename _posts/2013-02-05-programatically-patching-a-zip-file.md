@@ -1,3 +1,8 @@
+---
+layout: post
+category: code
+---
+{% include JB/setup %}
 Automatically patching a zip file
 
 There is no good excuse to patch continuously the result of a build. If you have to patch a build more than once, this means you have to change your build somehow and take that patch into account in your normal build. You have to normalise your build.
@@ -10,4 +15,5 @@ So there I went, I wrote that code for my specific file I had to patch, but the 
 
 And that's when I thought that [Copy and paste can be relevant](http://matthieus.github.com/idea,%20open%20source/2013/02/04/copy-and-paste-can-be-relevant/).
 
-For the record I put the piece of code in a [normal repo](https://github.com/matthieus/testedGists/blob/master/src/main/scala/testedGists/TransformFileInZip.scala), not a gist, as I wanted that gist to be tested.
+For the record the zip patching code is below, and you can check the tests in the [github repo](https://github.com/matthieus/testedGists):
+<script src="http://gist-it.appspot.com/github/matthieus/testedGists/raw/master/src/main/scala/testedGists/TransformFileInZip.scala"></script>
