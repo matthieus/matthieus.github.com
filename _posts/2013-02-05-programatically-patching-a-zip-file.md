@@ -16,4 +16,5 @@ So there I went, I wrote that code for my specific file I had to patch, but the 
 And that's when I thought that [Copy and paste can be relevant](http://matthieus.github.com/idea,%20open%20source/2013/02/04/copy-and-paste-can-be-relevant/).
 
 For the record the zip patching code is below, and you can check the tests in the [github repo](https://github.com/matthieus/testedGists):
-<script src="http://gist-it.appspot.com/github/matthieus/testedGists/raw/master/src/main/scala/testedGists/TransformFileInZip.scala"></script>
+<script src="http://gist-it.appspot.com/github/matthieus/testedGists/raw/master/src/main/scala/testedGists/TransformFileInZip.scala">
+</script>
