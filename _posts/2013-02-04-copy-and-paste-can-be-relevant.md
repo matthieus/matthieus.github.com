@@ -1,6 +1,6 @@
 ---
 layout: post
-category: idea, open source
+category: ideas
 ---
 {% include JB/setup %}
 
@@ -27,10 +27,11 @@ Pasting code is good because:
 - you can tailor that code to your exact needs
 - because depending on someone else's library is an act of commitment and trust
 
-BUT, and that's where I want to bring you, dear reader, pasting is only good when:
+BUT, and that's where I want to bring you dear reader, pasting is only good when:
 - you understand what you copy
 - the piece of code is reliable
-And there is no service on earth that helps to go in that direction.
+
+And there is no service to my knowledge that goes in that direction.
 One might say "use a paste bin!" but I'd answer that you can't trust a piece of code coming from a paste bin. And you can't search for snippets in paste bins.
 
 What that service of my wildest dreams would do:
@@ -42,6 +43,6 @@ What that service of my wildest dreams would do:
 - cool stats like the number of people who copied the piece of code
 - good old comments to help making that code better
 
-To summarize, that service would be a cross between a github:gist, TDD and an integration server.
+To summarize, that service would be a cross between a gist.github.com, TDD and an integration server. And as it is a bit of dream, I'll push even further by adding social features geared toward safer, high quality code.
 
 **Am I the only one here who wants that service?**
