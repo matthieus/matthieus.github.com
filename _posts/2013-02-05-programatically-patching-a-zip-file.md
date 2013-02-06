@@ -12,7 +12,7 @@ That's when I tried to find a programatical way (on the JVM) to access a file bu
 
 So there I went, I wrote that code for my specific file I had to patch, but the resulting code turned out to be very ugly and not readable. This was a mistake. So I wrote a generic recursive version that would do the same, and it turned out to be a much cleaner, shorter and readable piece of code. In the meantime I dropped Groovy for Java as I needed that code to be as fast and efficient as possible. And then I dropped Java for Scala as I wanted that code to be less boilerplaty. And finally I though I spent way too much time on that small piece of code to not share it. 
 
-And that's when I thought that [Copy and paste can be relevant](http://matthieus.github.com/idea,%20open%20source/2013/02/04/copy-and-paste-can-be-relevant/).
+And that's when I thought that [Copy and paste can be relevant](http://matthieus.github.com/ideas/2013/02/04/copy-and-paste-can-be-relevant/).
 
 For the record the zip patching code is below (and you can check the tests in the [testedGists](https://github.com/matthieus/testedGists) repo):
 <script src="http://gist-it.appspot.com/github/matthieus/testedGists/raw/master/src/main/scala/testedGists/TransformFileInZip.scala">
