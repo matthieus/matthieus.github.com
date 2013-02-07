@@ -40,7 +40,7 @@ What that service of my wildest dreams would do:
 - live running of the tests after modification, with a green/red flag telling me if that code runs
 - a limit on the number of files and lines per file (go put your code in a full blown library if you go past that limit)
 - relevant search
-- double display on one screen of the tests on the left and the production code on the right (tests gives you all the things you need to know, being what it does and samples)
+- double display on one screen of the tests on the left, production code on the right
 - cool stats like the number of people who copied the piece of code
 - good old comments to help making that code better
 
