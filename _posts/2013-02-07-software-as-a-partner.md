@@ -19,11 +19,12 @@ A standard project organisation would be:
 4. Development is done with some intermediary validations from the client in an Agile way
 5. Final release is done after 1 year of development
 
+
 Let's assume everything went well: the client was relatively mature about what he wanted, the specifications were as good as a specification can be, the development team worked well together.
 
-This way to do things is a very standard, proven by the market way to make software. Billions are made by software companies who sell software made this way, SAP being the first best example of that model.
+This way to do things is a very standard, proven by the market, way to make software. Billions are made by software companies who sell software made this way, SAP being the first best example of that model.
 
-But this kind of software doesn't make users consistently happy, they will still have bouts of nostalgia for the Excel sheet being replaced, this is not brilliant software. My opinion is that this result is unavoidable with this model of making software, simply because this model is too far from the model that made brilliant software possible. The makers are far too far from the users. The software makers cannot *be* the users in such an organisation.
+But this kind of software doesn't make users consistently happy, they will still have bouts of nostalgia for the Excel sheet being replaced. This is not brilliant software. My opinion is that this result is unavoidable with this model of making software, simply because this model is too far from the model that made brilliant software possible. The makers are far too far from the users. The software makers cannot *be* the users in such an organisation.
 
 How can we make the development team *be* the users? Asking the question is half the answer: we need to make them work together. By working together I really mean it, users being part of the team. Users testing the software with their own data that they know and understand. Users having ideas directly discussed with the product owner and the developers. The users understanding the logic behind a software product making, which will structure their own ideas and vision. If they can, a few chosen users should leave their normal day job and become software designer for the time of the project. That kind of working together.
 
