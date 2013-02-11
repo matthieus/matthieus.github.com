@@ -1,6 +1,8 @@
 <div id="page">
+
+  <h2 class="category">{{ page.category }}</h2>
 	
-  <h1 class="emphnext">{{ page.title }}</h1>
+  <h1 class="emphnext post_title">{{ page.title }}</h1>
   <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}

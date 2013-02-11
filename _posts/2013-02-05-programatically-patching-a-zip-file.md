@@ -1,6 +1,6 @@
 ---
 layout: post
-category: code
+category: Sharing Code
 ---
 {% include JB/setup %}
 

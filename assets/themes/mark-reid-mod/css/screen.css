@@ -89,15 +89,15 @@ sup { line-height: 1ex; }
 	-moz-box-shadow: 2px 2px 8px #aaa;
 }
 
-/* TODO
-#page { counter-reset: section; }
-#page h2:before {
-	margin-left: -3.5ex;
+.category {
+	margin: -1.5em 0 1.5em 0;
 	color: silver;
-	content: "§" counter(section) ". ";
-	counter-increment: section 2;
+	font-weight: 400;
 }
-*/
+
+.post_title {
+	text-align: center;
+}
 
 /* @group FancyFirst */
 .emphnext + p:first-letter, p.emphfirst:first-letter {

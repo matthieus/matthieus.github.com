@@ -1,0 +1,29 @@
+{% comment %}<!--
+Collate_posts helper. Collated posts by year and month.
+Usage:
+  1) assign the 'posts_collate' variable to a valid array of posts.
+  2) include custom/posts_collate
+  example:
+    {% assign posts_collate = site.posts %}
+    {% include custom/posts_collate %}
+
+  Ordering:
+    Posts are displayed by category, then in reverse chronological order.
+        
+-->{% endcomment %}
+
+{% for category in site.categories %}
+  <h1>{{ category[0] }}</h1>
+  {% for post in category[1]  %}
+    {% if forloop.first %}
+      <ul>
+    {% endif %}
+
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+
+    {% if forloop.last %}
+    </ul>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign posts_collate = nil %}
