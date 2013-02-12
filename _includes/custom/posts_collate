@@ -13,7 +13,7 @@ Usage:
 -->{% endcomment %}
 
 {% for category in site.categories %}
-  <h1>{{ category[0] }}</h1>
+  <h2>{{ category[0] }}</h2>
   {% for post in category[1]  %}
     {% if forloop.first %}
       <ul>

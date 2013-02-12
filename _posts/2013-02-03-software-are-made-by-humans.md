@@ -2,7 +2,7 @@
 layout: post
 categories: 
 - Meta
-- Software are Made by Humans, Mainly
+- Software is Made by Humans
 ---
 {% include JB/setup %}
 

@@ -6,23 +6,23 @@ category: Tools for Making Software
 
 It happened several times that a library appealed to me just for a few handy methods. But depending on a library is an act of commitment. And it's not a marriage-like commitment, this will be a one way commitment, your code won't change that library but the reverse will be true. And getting rid of that dependency will only get more difficult with time.
 
-In that post, as the title promises, I'll advocate code pasting with a twist. But first I'll just sum up what you rely on when choosing the library path:
+In that post, as the title promises, I'll advocate code pasting, but with an important twist. But first I'll sum up what you rely on when choosing the library path:
 
-&rarr; **Trust**, when you download code which you don't own, you have to trust that the person who wrote it knew what she or he was doing. The basic functionality has to be reliable. Edge cases have to be taken care of. As a developer, you know these things are hard, and you know also that you've been let down by libraries before.
+**Trust**, when you download code which you don't own, you have to trust that the person who wrote it knew what she or he was doing. The basic functionality has to be reliable. Edge cases have to be taken care of. As a developer, you know these things are hard, and you know also that you've been let down by libraries before.
 
-&rarr; **Luck**, you have to be somewhat lucky to find a library that does exactly what you need. Most of the time it will do something approaching your need and you'll have to deal with it with some wrapper and inefficient code to get it working.
+**Luck**, you have to be somewhat lucky to find a library that does exactly what you need. Most of the time it will do something approaching your need and you'll have to deal with it with some wrapper and inefficient code to get it working.
 
 Ok let's say you got trust and luck in that smiley library to which you couldn't resist. Now you're gone for a life long (at least) reliance on:
 
-&rarr; **Maintenance**, you'll hope that it will be maintained, at least from a bug fixing point of view. You could do it yourself, but do you have time for that? Remember, you only wanted a few methods from that library.
+**Maintenance**, you'll hope that it will be maintained, at least from a bug fixing point of view. You could do it yourself, but do you have time for that? Remember, you only wanted a few methods from that library.
 
-&rarr; **Relevance**, you might fall for another much cuter library when the relationship is already quite deep. Not uncommon.
+**Relevance**, you might fall for another much cuter library when the relationship is already quite deep. Not uncommon.
 
-&rarr; **Public repo publication**, I wouldn't use a library not published on a public repo, it's just too much hassle.
+**Public repo publication**, I wouldn't use a library not published on a public repo, it's just too much hassle.
 
-&rarr; **Backward compatibility**, this is the most tricky one. Anything could break when you change versions, even if the method signatures is the same.
+**Backward compatibility**, this is the most tricky one. Anything could break when you change versions, even if the method signatures is the same.
 
-&rarr; **Compatibility with other libraries**, can be really painful. Why can't all libraries be nice to each other?
+**Compatibility with other libraries**, can be really painful. Why can't all libraries be nice to each other?
 
 When you use a library, you have to be aware of all that.
 
@@ -40,7 +40,7 @@ And there is no service to my knowledge that goes in that direction.
 One might say "use a paste bin!" but I'd answer that you can't trust a piece of code coming from a paste bin.
 
 What that service of my wildest dreams would do:
-- ask the developer to provide tests with 80% coverage mandatory (verifying other metrics would be nice too)
+- ask the developer to **provide tests** with 80% coverage mandatory (verifying other metrics would be nice too)
 - when you copy the code, don't forget to copy the tests too (look, boss, code coverage is up!)
 - tests running live, with a green or red flag telling me if that code runs
 - relevant search
