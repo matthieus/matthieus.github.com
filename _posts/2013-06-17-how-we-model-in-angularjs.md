@@ -4,12 +4,12 @@ category: Sharing Code
 ---
 {% include JB/setup %}
 
-This post follows a discussion on hacker news about AngularJS weaknesses.
-In the company I work for, we use AngularJS for a few months, and so far so good. There are some pain points, but the benefits outweight these by a large margin. I won't speak about pros and cons in that post, but about the choices we made to represent the model. This model is still very much work in progress, especially to determine where it's relevant and where it's not.
+This post follows a [blog post](http://eviltrout.com/2013/06/15/ember-vs-angular.html) about some of AngularJS weaknesses, how to model being the main subject. There isn't one idiomatic way to use a model in AngularJS and this lack of guidance was considered a problem. I think this is a strength on the contrary. AngularJS doesn't force the way you access your data, but it doesn't leave you alone either. The different features will give you different options that will make sense or not for your particular set of features.
+To illustrate that opinion I'll describe the way we make our model accessible in one part of our application.
 
 # Model basics
 
-Our application is basically partial CRUD on pre-existing objects, with some sometimes complex business processing done server side. On the client side, there are many rules about what can be modified, depending on object states, depending on privileges and depending on ownership. So there is a lot of dependencies between different areas of our model.
+Our application provides partial CRUD on pre-existing objects, with some sometimes complex business processing done server side. On the client side, there are many rules about what can be modified, depending on object states, depending on privileges and depending on ownership. So there is a lot of dependencies between different areas of our model.
 To tackle that issue, we use a global model. We don't use services or resources, our model is directly on a global scope. And we don't use the rootScope either, we use the scope corresponding to what contains our app, footer and header excluded. Here is how it looks like:
 
     app.controller('GlobalCtrl', function($scope) {
@@ -29,6 +29,7 @@ For the controller organisation, we have more or less one controller per object,
                 $scope.model.user = data;
             });
         };
+        // initialize the data at load time
         $scope.refresher.user();
     });
 
@@ -54,7 +55,7 @@ So if we want to modify some data, this will look like:
         };
     });
 
-The relevant refreshers are called when the POST returns.  
+We can see the use of refreshers in the code above, the relevant refreshers are called when the POST returns.  
 _Note:_ From a server roundtrip point of view, this method is ineffecient. We could return the modified objects with the POST response, but that would assume that the server knows what is the data that should be updated on the screen, that's a mix of concern I'd be ready to accept only if really necessary.
 
 # Questioning that choice
