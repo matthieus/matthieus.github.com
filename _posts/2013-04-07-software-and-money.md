@@ -1,3 +1,9 @@
+---
+layout: post
+category: Software is Made by People
+---
+{% include JB/setup %}
+
 Software and money.
 
 Software must be also a revenue generator for users, not only a cost generator.
