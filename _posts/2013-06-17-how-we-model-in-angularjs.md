@@ -4,8 +4,8 @@ category: Sharing Code
 ---
 {% include JB/setup %}
 
-This post follows a [blog post](http://eviltrout.com/2013/06/15/ember-vs-angular.html) about some of AngularJS weaknesses, how to model being the main subject. There isn't one idiomatic way to use a model in AngularJS and this lack of guidance was considered a problem. I think this is a strength on the contrary. AngularJS doesn't force the way you access your data, but it doesn't leave you alone either. The different features will give you different options that will make sense or not for your particular set of features.
-To illustrate that opinion I'll describe the way we make our model accessible in one part of our application.
+This post follows a [blog post](http://eviltrout.com/2013/06/15/ember-vs-angular.html) about some of AngularJS weaknesses, how to model being the main subject. There isn't one idiomatic way to use a model in AngularJS and this lack of guidance was considered a problem. I think this is a strength. AngularJS doesn't force the way you access your data, but it doesn't leave you alone either. The different features will give you different options that will make sense or not for your particular set of features.
+To illustrate that I'll describe the way we make our model accessible in one part of our application, which is very different from, let's say, the AngularJS home page example showing a list of javascript projects.
 
 # Model basics
 
@@ -15,7 +15,7 @@ To tackle that issue, we use a global model. We don't use services or resources,
     app.controller('GlobalCtrl', function($scope) {
         $scope.model     = {/* contains model objects coming from the server */};
         $scope.refresher = {/* contains refresh methods allowing to refresh the model objects. Conventions says method name = object name. */};
-        $scope.global    = {/* contains some global state relevant for the client side. */};
+        $scope.global    = {/* contains the global state only relevant for the client side. */};
     });
 
 Refreshers are method named with the same name as the objects contained in the model (user object will give user() method to refresh the user object). The refresher is the only way to update the model. The purpose of that is to have the model containing only valid committed data coming from the server.
