@@ -4,13 +4,13 @@ category: Sharing Code
 ---
 {% include JB/setup %}
 
-This post follows a [blog post](http://eviltrout.com/2013/06/15/ember-vs-angular.html) about some of AngularJS weaknesses, how to model being the main subject. There isn't one idiomatic way to use a model in AngularJS and this lack of guidance was considered a problem. I think this is a strength. AngularJS doesn't force the way you access your data, but it doesn't leave you alone either. The different features will give you different options that will make sense or not for your particular set of features.
-To illustrate that I'll describe the way we make our model accessible in one part of our application, which is very different from, let's say, the AngularJS home page example showing a list of javascript projects.
+This post follows a [blog post](http://eviltrout.com/2013/06/15/ember-vs-angular.html) about some of AngularJS weaknesses, how to model being the main subject. There isn't one idiomatic way to use a model in AngularJS and this lack of guidance was considered a problem. I think this is a strength. AngularJS doesn't force the way you access your data, but it doesn't leave you alone either. The different AngularJS features will give you different options that will make sense or not for your particular case.
+To illustrate that I'll describe the way we make our model accessible in one of our applications, which is very different from, let's say, the AngularJS home page examples.
 
 # Model basics
 
-Our application provides partial CRUD on pre-existing objects, with some sometimes complex business processing done server side. On the client side, there are many rules about what can be modified, depending on object states, depending on privileges and depending on ownership. So there is a lot of dependencies between different areas of our model.
-To tackle that issue, we use a global model. We don't use services or resources, our model is directly on a global scope. And we don't use the rootScope either, we use the scope corresponding to what contains our app, footer and header excluded. Here is how it looks like:
+Our application provides partial CRUD on pre-existing objects. It has sometimes complex business processing done server side. This is a quite common scenario in an enterprise environment. On the client side, there are many rules about what can be modified, depending on object states, privileges and ownership. So there is a lot of dependencies between different areas of our model.
+To tackle that issue, we use a global model. We don't use services or resources, our model is directly on a global scope. And we don't use the rootScope either, we use the scope corresponding to what contains our app, footer and header excluded. Here is how the AngularJS controller that defines the global scope looks like:
 
     app.controller('GlobalCtrl', function($scope) {
         $scope.model     = {/* contains model objects coming from the server */};
@@ -35,7 +35,7 @@ For the controller organisation, we have more or less one controller per object,
 
 Very simple, but what does it give us?
 + the global model is an exact reproduction of the DTO defined on the server side.
-+ this gives access from anywhere in the app to $scope.model.user.someProperty, which gives {{model.user.someProperty}} in the HTML. We thought this maximises the expressiveness of the HTML code, where you know what is model data and what is local data.
++ this gives access from anywhere in the app to $scope.model.user.someProperty, which gives {{model.user.someProperty}} in the HTML. We thought this maximises the expressiveness of the HTML code, where you know what is global model data and what is local data.
 + the refresher method is the only way to update the model. Our convention is to NEVER update the model directly, the model must be a representation of what's on the server.
 
 So if we want to modify some data, this will look like:
@@ -56,7 +56,7 @@ So if we want to modify some data, this will look like:
     });
 
 We can see the use of refreshers in the code above, the relevant refreshers are called when the POST returns.  
-_Note:_ From a server roundtrip point of view, this method is ineffecient. We could return the modified objects with the POST response, but that would assume that the server knows what is the data that should be updated on the screen, that's a mix of concern I'd be ready to accept only if really necessary.
+_Note:_ From a server roundtrip point of view, this method is ineffecient. We could return the modified objects with the POST response, but that would assume that the server knows what is the data that should be updated on the screen, that's a mix of concern I'd be ready to accept only if performance constraints made it really necessary.
 
 # Questioning that choice
 
