@@ -47,7 +47,7 @@ I want copy and paste with a reliable source. How many of you have looked for a 
 This is a tedious process. And where there is tediousness there is potential for better. Github provides libraries, Gist is not a trustable source, Stackoverflow gives you answers, not code. There is space for another service.
 
 What that service of my wildest dreams would do:
-- Ask the developer to **provide tests** with [arbitrary]% coverage mandatory (verifying other metrics would be nice too).
+- Ask the developer to **provide tests** with \[arbitrary\]% coverage mandatory (verifying other metrics would be nice too).
 - Tests running live, with a green or red flag telling me if that code runs at the moment.
 - Relevant search.
 - When displaying the code, tests are shown on the left and production code on the right.
