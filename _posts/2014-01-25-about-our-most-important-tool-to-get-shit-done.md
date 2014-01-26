@@ -8,7 +8,7 @@ categories:
 
 This post is about our most important tool to get shit done, concentration.
 
-Concentration, or focus, is what allows us doing work. Any work. There are different degrees of concentration though. There are also contexts where concentration is more fragile than others. And finally there are triggers that make concentration easier. That's what I want to talk about in this post. With a particular focus on a tool that could make you more productive than you thought you could be.
+Concentration is what allows us doing work. Any work. There are different degrees of concentration though. There are also contexts where concentration is more fragile than others. And finally there are triggers that make concentration easier. That's what I want to talk about in this post. With a particular focus on a tool that could make you more productive than you thought you could be.
 
 To understand these triggers that make your concentration work, let's agree on some common ground about what concentration is. For that I'll use the old concept of subconscious and consciousness. Concentration is when consciousness is only thinking about the task at hand. The subconscious is in a state where it is serving consciousness instead of distracting it. The subconscious is a very complex, powerful and susceptible beast. It is the animal in us. Hundreds of millions of years of animal evolution forged its organization. Only hundreds of thousands of years forged consciousness. Actually much less if you consider written work. And just a few decades if you consider programming.
 
