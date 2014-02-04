@@ -2,6 +2,10 @@
 layout: default
 ---
 {% include JB/setup %}
-{% assign page = site.posts[0]%}
-{% assign content = page.content %}
-{% include themes/mark-reid-mod/post.html %}
+<ul >
+    {% for post in site.posts limit 4 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {{ post.content | strip_html | truncatewords:40}}<br>
+            <a href="{{ post.url }}">Read more...</a><br><br>
+    {% endfor %}
+</ul>

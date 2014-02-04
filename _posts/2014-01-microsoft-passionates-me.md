@@ -1,0 +1,11 @@
+Microsoft passionates me
+
+My opinion of Microsoft has been very mainstream until the recent years. By mainstream opinion, I mean I saw Microsoft as an uninteresting giant, extremely good at killing competition. Its products are a mix of good and bad, but it didn't really matter as any of its products were de facto standards. When Microsoft came to the mobile industry more than 10 years ago with its Windows mobile, it really took advantage of that situation. It was a de facto standard, as bad as it was. In more recent years, Microsoft stayed a uninteresting giant, but lost some of its capacity to kill competition. The competition just finally took its share.
+
+But now Microsoft passionates me, and this is because of its investment in touch technologies. Some could say that it came to touch technologies a bit like it came to search engine, late, with no apparent way to catch up with competition. My opinion is that on the contrary Microsoft went much further that the competition: it created a coherent global touch interface between all form factors. The generalisation of the Metro interface is the most underestimated decision of Microsoft. Its UI is now unique and far far ahead of both Google and Apple. It gives Microsoft the massive opportunities to integrate every piece of electronic product we own into a simple and consistent experience.
+I know I'm not alone when say I don't like Steve Ballmer's style, but the fact is he brought Microsoft in front of this opportunity. Now execution has been a bit shaky. The products that went out so far were not really bad, but not really good either. And more importantly they haven't shown the incredible user experience we expect from a revolutionary unifying design like Metro is.
+
+My hope is that the next CEO really realises that he just needs to capitalize that incredible gold nugget and manages to show why Metro is such a breakthrough. Steve Ballmer made a lot of noise by repeating words 3 times, but that didn't show me why the product was superior to the others.
+
+Someone might ask, what's the big deal with integration, all the pieces of technology are pretty well integrated already with web apps, desktop apps and mobile apps connected to the same services, don't you think? Well no, I don't think so. Take the example of 
+- Responsive design promises not really kept
