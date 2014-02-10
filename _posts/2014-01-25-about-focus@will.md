@@ -4,13 +4,17 @@ category: Software is Made by People
 ---
 {% include JB/setup %}
 
-Being able to concentrate is what allows us to do any work. An important thing to take into account is that there are different kinds of concentration for different activities. We can divide these activities in 3 different buckets: social, physical and cerebral. The one I'll focus on in this post is the cerebral one. In this category I would put programming, writing, reading, learning and any other similarly quiet but intense activities. This post will walk you through the reasons why concentration can be difficult. External interruptions is far from being the only issue. And that'll be a good way to introduce focus@will, a service I enjoyed enough to write a post about it.
+Introduction for the Hacker News readers:
+focus@will has already triggered interesting comments in hacker news ([https://news.ycombinator.com/item?id=5872414#up_5872669](see here)), especially the first comment. But none of the commenter seem to have a real experience with the service and what's involved in it. Typically the first commenter's point is that music can be helpful to concentrate on repetitive tasks, but it will kill his creativity. What he says is actually supported by the focus@will selling pitch, music does engage your creative hemisphere. But not focus@will music. Their music is actually boring. It could even be compared to white noise. Except it's much better for concentration than white noise.
+
+General introduction:
+Being able to concentrate is what allows us to do any work. An important thing to take into account is that there are different kinds of concentration for different activities. We can divide these activities in 3 different buckets with very different constraints: social, physical and cerebral. The one I'll focus on in this post is the cerebral one, possibly the most fragile one. In this category I would put programming, writing, reading, learning and any other similarly quiet but intense activities. This post will walk you through the reasons why concentration can be difficult. External interruptions is far from being the only issue. And that'll be a good way to introduce focus@will, a service I enjoyed enough to write a post about it.
 
 ## Why can it be hard to concentrate?
 
-As for all psychological issues, there are many ways to put words on them. For this case, I feel like we don't need any complex model. Consciousness and subconscious concept will be enough. 
+As for all psychological issues, there are many ways to put words on them. For this case, I feel like we don't need any complex model. Consciousness and subconscious concepts will be enough. 
 
-We will define consciousness relatively to concentration. Your conscious thinking is what allows you to stay focused on your task. If your conscious thinking changes subject, you lose. 
+We will define consciousness relatively to concentration. Your conscious thinking is what allows you to stay focused on your task. If your conscious thinking changes subject, you lose.
 
 On the other side of consciousness, we have the subconscious. A very complex, powerful and susceptible beast. It is the animal in us. Hundreds of millions of years of animal evolution forged its organization. Where only hundreds of thousands of years forged consciousness. Actually much less if you consider written work. And just a few decades if you consider programming.
 
@@ -24,7 +28,7 @@ Even though concentration is the direct work of consciousness, it is the state o
 
 Taming is not putting in jail your subconscious. Your subconscious needs to have some freedom to go about and find the pieces of knowledge that will fit the problem at hand. The most powerful concentration is a concentration where the subconscious is the most free while still controlled by your conscious thoughts. Some people call this the zone. Of course you don't need the most powerful concentration to do work, but you do need a minimum of concentration. And that's what this post is about.
 
-There are scores of books and tools about the subject, but pretty much every one of them will be about having you consciously acting on your mind. Which means learning. And that's not what I want to talk about. What I'm talking about is easy.
+There are scores of books and tools about the subject, but pretty much every one of them will be about having you consciously acting on your mind. Which means learning. And that's not what I want to talk about. What I'm talking about is easy and doesn't involve any mind bending.
 
 A solution which works consistently is targeting directly the subconscious. What you want is trying to keep the subconscious slightly busy. You can typically do that with sounds. Sounds that won't trigger any reaction, just background sounds. It can be nature sounds, ambient music, white noise. You don't want too much energy in these sounds otherwise they just focus your attention on them. You don't want voices in them as our mind evolved to pay attention to the human voice frequency. And you don't want these sounds to put you to sleep either.
 
@@ -36,7 +40,7 @@ What they do is streaming music. In the past I've played a lot with working with
 
 ## Is the concentration reached with focus@will the "zone"?
 
-I'm not quite sure what the zone is. It seems to be one of these words where everybody has a definition of it, but they are never quite the same. A bit like "love". Some people say they fall in love all the time, others say once in a lifetime. Some will say there is no love without passion, others that passion is not the same as love. Go figure out. And the "zone" is a bit like that.
+I'm not quite sure what the zone is. It seems to be one of these words where everybody has a definition of it, but they are never quite the same. A bit like "love". Some people say they fall in love all the time, others say once in a lifetime. Some will say there is no love without passion, others that passion is not the same as love. Go figure out.
 
 Anyway, in my opinion you don't need to be in a particular super efficient state of mind to get work done, you just need concentration.
 
@@ -44,17 +48,17 @@ Anyway, in my opinion you don't need to be in a particular super efficient state
 
 I think so. I realized that even if I'm tired, I quickly forget I'm tired and focus on the task. It's the same if something bothers me, it really helps to get your mind off it.
 
-## What happens if I'm in the middle of work session and get interrupted?
+## What happens if I'm in the middle of a work session and get interrupted?
 
-In theory, you are not supposed to be interrupted. That's why there is no pause on the player. Basically if you stop the music, that means you stop the session. In practice, I just remove my headphone, deal with the interruption and go back to work. Now does the music streaming help going back to work? I think so, because it makes you more conscious about the fact you are in a work session and you will deal with the interruption as quickly as possible. I also get the feeling it helps restoring your context as your brain will associate the music with the train of thought.
+In theory, you are not supposed to be interrupted. That's why there is no pause on the player (the devil is in the detail). Basically if you stop the music, that means you stop the session. In practice, I just remove my headphone, deal with the interruption and go back to work. Now does the music streaming help going back to work? I think so, because it makes you more conscious about the fact you are in a work session and you will deal with the interruption as quickly as possible. I also get the feeling it helps restoring your context as your brain will associate the music with the train of thought.
 
-## You are selling that service like you were a focus@will sales, maybe you are?
+## You are selling that service like you were a focus@will sales guy, maybe you are?
 
 Nope. I don't own any stakes in the company and I don't know anybody there. 
 
-Hell, I'll sell it even more while I'm at it. Here are the aspects I particularly like:
-- they have a big focus on the music samples, not fancy features (it's pretty bare)
-- features don't distract you, it's the last thing you want from them after all
-- they have a free and paid subscription model which I think is well balanced. You'll want to pay for it only if it works for you.
+Hell, I'll sell it even more while I'm at it. Here are the aspects I particularly like:<br>
+ \+ they have a big focus on the music samples, not fancy features (it's pretty bare)<br>
+ \+ features don't distract you, it's the last thing you want from them after all<br>
+ \+ they have a free and paid subscription model which I think is well balanced. You'll want to pay for it only if it works for you.
 
 I'm hoping this post made sense to you, and whether it did or not I'd be more than happy to read about your own experience. 
