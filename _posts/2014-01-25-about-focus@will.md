@@ -4,10 +4,10 @@ category: Software is Made by People
 ---
 {% include JB/setup %}
 
-Introduction for the Hacker News readers:
-focus@will has already triggered interesting comments in hacker news ([https://news.ycombinator.com/item?id=5872414#up_5872669](see here)), especially the first comment. But none of the commenter seem to have a real experience with the service and what's involved in it. Typically the first commenter's point is that music can be helpful to concentrate on repetitive tasks, but it will kill his creativity. What he says is actually supported by the focus@will selling pitch, music does engage your creative hemisphere. But not focus@will music. Their music is actually boring. It could even be compared to white noise. Except it's much better for concentration than white noise.
+_Introduction for the Hacker News readers:_
+focus@will has already triggered interesting comments in hacker news, [see here](https://news.ycombinator.com/item?id=5872414#up_5872669). But none of the commenters seem to have a real experience with the service and what's involved in it. So here is mine.
 
-General introduction:
+_General introduction:_
 Being able to concentrate is what allows us to do any work. An important thing to take into account is that there are different kinds of concentration for different activities. We can divide these activities in 3 different buckets with very different constraints: social, physical and cerebral. The one I'll focus on in this post is the cerebral one, possibly the most fragile one. In this category I would put programming, writing, reading, learning and any other similarly quiet but intense activities. This post will walk you through the reasons why concentration can be difficult. External interruptions is far from being the only issue. And that'll be a good way to introduce focus@will, a service I enjoyed enough to write a post about it.
 
 ## Why can it be hard to concentrate?
