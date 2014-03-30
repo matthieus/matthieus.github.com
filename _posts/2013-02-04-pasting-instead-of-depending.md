@@ -54,6 +54,7 @@ What that service of my wildest dreams would do:
 - A limit on the number of files and lines (go put your code in a full blown library if you go past that limit)
 - Cool stats like the number of people who copied the piece of code
 - Good old comments to help making that code better
+
 That's it for the basic service.
 
 One question I really have difficulties to answer is whether or not the piece of code can depend on a non standard library of the language. I think the service would be far more useful it was possible, but it would be slightly ironic, wouldn't it?
